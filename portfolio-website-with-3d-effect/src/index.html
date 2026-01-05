@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark" />
+    <title>Kharlle Mae — Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Bonbon&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main class="app">
+        <aside class="sidebar">
+            <div class="brand" aria-label="Profile">
+                <div class="brandMark" aria-hidden="true">KM</div>
+                <div class="brandText">
+                    <div class="brandName">Kharlle Mae</div>
+                    <div class="brandTag">Web Developer</div>
+                </div>
+            </div>
+
+            <nav aria-label="Primary navigation">
+                <ul class="Links">
+                    <li class="activeLink" data-nav="0" role="button" tabindex="0" aria-label="Go to Summary">
+                        <i class="fa-solid fa-house" aria-hidden="true"></i>
+                        <span>Summary</span>
+                    </li>
+                    <li data-nav="1" role="button" tabindex="0" aria-label="Go to Experience">
+                        <i class="fa-solid fa-user" aria-hidden="true"></i>
+                        <span>Experience</span>
+                    </li>
+                    <li data-nav="2" role="button" tabindex="0" aria-label="Go to Skills">
+                        <i class="fa-solid fa-list" aria-hidden="true"></i>
+                        <span>Skills</span>
+                    </li>
+                    <li data-nav="3" role="button" tabindex="0" aria-label="Go to Certificates">
+                        <i class="fa-solid fa-images" aria-hidden="true"></i>
+                        <span>Certificates</span>
+                    </li>
+                    <li data-nav="4" role="button" tabindex="0" aria-label="Go to Contact">
+                        <i class="fa-solid fa-comments" aria-hidden="true"></i>
+                        <span>Contact</span>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="sidebarFoot">
+                <span class="statusDot" aria-hidden="true"></span>
+                <span>Available for freelance</span>
+            </div>
+        </aside>
+
+        <div class="swiper mySwiper" aria-live="polite">
+            <div class="SlideContainer swiper-wrapper">
+                <section class="swiper-slide home-slide" aria-label="Home">
+                    <div class="homeGrid">
+                        <div class="HomeContent">
+                            <p class="kicker">Resume</p>
+                            <h1>Hi, I’m <span class="stylized-name">Kharlle Mae</span>.</h1>
+                            <h2>A <span class="proffesions">Network Admin</span></h2>
+                            <p class="heroline">
+                                I build clean, fast, and accessible web experiences. Available for freelance and full-time roles.
+                            </p>
+
+                            <div class="chipRow" aria-label="Key skills">
+                                <span class="chip">Frontend</span>
+                                <span class="chip">UI/UX</span>
+                                <span class="chip">Performance</span>
+                                <span class="chip">Accessibility</span>
+                            </div>
+
+                            <div class="buttonGroup">
+                                <button class="btn primary" type="button" data-action="download-resume">Download Resume</button>
+                                <button class="btn" type="button" data-action="projects">View Projects</button>
+                                <button class="btn" type="button" data-action="contact">Contact</button>
+                            </div>
+
+                            <div class="summaryGrid" aria-label="Summary overview">
+                                <div class="summaryCard">
+                                    <div class="summaryLabel">Current Focus</div>
+                                    <div class="summaryValue">Modern UI, clean code, performance</div>
+                                </div>
+                                <div class="summaryCard">
+                                    <div class="summaryLabel">Location</div>
+                                    <div class="summaryValue">Pakistan · Remote-friendly</div>
+                                </div>
+                                <div class="summaryCard">
+                                    <div class="summaryLabel">Availability</div>
+                                    <div class="summaryValue">Open to opportunities</div>
+                                </div>
+                                <div class="summaryCard">
+                                    <div class="summaryLabel">Contact</div>
+                                    <div class="summaryValue">
+                                        <a class="textLink" href="mailto:kharlleekling@gmail.com">kharlleekling@gmail.com</a>
+                                    </div>
+                                </div>
+
+                                <a class="summaryCard resumeTile" href="assets/kharlle-mae-resume.jpg" target="_blank" rel="noreferrer" aria-label="Open resume image">
+                                    <div class="summaryLabel">Resume</div>
+                                    <div class="summaryValue">Tap to preview</div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="SideImg" aria-label="Profile image">
+                            <div class="top-right-corner" aria-hidden="true">
+                                <hr class="hr1" />
+                                <hr class="hr2" />
+                            </div>
+                            <img src="assets/profile.jpg" alt="Kharlle Mae profile photo" />
+                            <div class="bottom-left-corner" aria-hidden="true">
+                                <hr class="hr1" />
+                                <hr class="hr2" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="slide-help">
+                        Scroll for next slide <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+                    </p>
+                </section>
+
+                <section class="swiper-slide" aria-label="About">
+                    <div class="about-us">
+                        <h1 class="heading">Experience</h1>
+                        <h3 class="sub-heading">Selected roles & impact</h3>
+                        <p class="aboutme-deatils">
+                            Replace the placeholders below with your real job titles, dates, and achievements (metrics help a lot).
+                        </p>
+
+                        <div class="about-me-divison">
+                            <div class="timeline" aria-label="Experience timeline">
+                                <article class="timelineItem">
+                                    <div class="timelineMeta">2024 — Present</div>
+                                    <h4 class="timelineTitle">Frontend Developer · Company Name</h4>
+                                    <ul class="timelineBullets">
+                                        <li>Built reusable UI components and improved consistency.</li>
+                                        <li>Improved page performance (LCP/CLS) by Y%.</li>
+                                        <li>Worked closely with design + product to ship features.</li>
+                                    </ul>
+                                </article>
+                                <article class="timelineItem">
+                                    <div class="timelineMeta">2022 — 2024</div>
+                                    <h4 class="timelineTitle">Web Developer · Company Name</h4>
+                                    <ul class="timelineBullets">
+                                        <li>Delivered responsive marketing pages and dashboards.</li>
+                                        <li>Increased conversion by Y% through UX improvements.</li>
+                                    </ul>
+                                </article>
+                                <article class="timelineItem">
+                                    <div class="timelineMeta">2020 — 2022</div>
+                                    <h4 class="timelineTitle">Freelance · Remote</h4>
+                                    <ul class="timelineBullets">
+                                        <li>Created accessible, fast websites for multiple clients.</li>
+                                        <li>Owned projects end-to-end from design to deployment.</li>
+                                    </ul>
+                                </article>
+
+                                <div class="buttonGroup">
+                                    <button class="btn primary" type="button" data-action="skills">View Skills</button>
+                                    <button class="btn" type="button" data-action="projects">View Projects</button>
+                                    <button class="btn" type="button" data-action="contact">Contact</button>
+                                </div>
+                            </div>
+
+                            <div class="resumeCard" aria-label="Highlights">
+                                <h4>Highlights</h4>
+                                <ul>
+                                    <li>Responsive UI, design systems, accessibility</li>
+                                    <li>Performance-minded (LCP/CLS), clean architecture</li>
+                                    <li>Collaboration with designers & stakeholders</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="swiper-slide services" aria-label="Skills">
+                    <h1 class="heading">Skills</h1>
+                    <p class="sectionLead">A focused toolkit for building modern web experiences.</p>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-code" aria-hidden="true"></i></div>
+                        <h2>Frontend</h2>
+                        <p>HTML, CSS, JavaScript, responsive layouts, accessibility.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i></div>
+                        <h2>UI/UX</h2>
+                        <p>Minimalist UI, component consistency, interaction polish.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-gauge-high" aria-hidden="true"></i></div>
+                        <h2>Performance</h2>
+                        <p>Core Web Vitals, optimization, best practices.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-database" aria-hidden="true"></i></div>
+                        <h2>Backend Basics</h2>
+                        <p>APIs, data handling, Python/Django fundamentals.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-people-group" aria-hidden="true"></i></div>
+                        <h2>Collaboration</h2>
+                        <p>Clear communication, ownership, delivery mindset.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i></div>
+                        <h2>Tooling</h2>
+                        <p>Git, npm, build tooling, debugging, code quality.</p>
+                    </div>
+
+                    <div class="buttonGroup" style="grid-column: 1 / -1;">
+                        <button class="btn primary" type="button" data-action="projects">See Projects</button>
+                        <button class="btn" type="button" data-action="contact">Contact</button>
+                    </div>
+                </section>
+
+                <section class="swiper-slide gallery" aria-label="Certificates">
+                    <h1 class="heading">Certificates</h1>
+                    <p class="sectionLead">
+                        Professional certifications and course completions. Click any certificate to view full size.
+                    </p>
+
+                    <a class="project" href="assets/Agile%20A%20Concise%20Introduagile-certificate.png" target="_blank" rel="noreferrer">
+                        <img src="assets/Agile%20A%20Concise%20Introduagile-certificate.png" alt="Agile: A Concise Introduction Certificate" loading="lazy" />
+                        <span class="projectLabel">Agile: A Concise Introduction</span>
+                    </a>
+                    <a class="project" href="assets/Configure%20Juniper%20SRX%20Router%20Using%20J-Web.png" target="_blank" rel="noreferrer">
+                        <img src="assets/Configure%20Juniper%20SRX%20Router%20Using%20J-Web.png" alt="Configure Juniper SRX Router Using J-Web Certificate" loading="lazy" />
+                        <span class="projectLabel">Configure Juniper SRX Router Using J-Web</span>
+                    </a>
+                    <a class="project" href="assets/Introduction%20to%20Dark%20Web,%20Anonymity,%20and%20Cryptocurrency.png" target="_blank" rel="noreferrer">
+                        <img src="assets/Introduction%20to%20Dark%20Web,%20Anonymity,%20and%20Cryptocurrency.png" alt="Introduction to Dark Web, Anonymity, and Cryptocurrency Certificate" loading="lazy" />
+                        <span class="projectLabel">Dark Web, Anonymity, and Cryptocurrency</span>
+                    </a>
+
+                    <div class="buttonGroup" style="grid-column: 1 / -1;">
+                        <button class="btn primary" type="button" data-action="contact">Contact</button>
+                        <button class="btn" type="button" data-action="download-resume">Download Resume</button>
+                    </div>
+                </section>
+
+                <section class="swiper-slide contactMe" aria-label="Contact">
+                    <h1 class="heading">Contact</h1>
+
+                    <div class="contactTop">
+                        <p class="sectionLead">Let’s talk. Fastest response by email.</p>
+                        <div class="buttonGroup">
+                            <button class="btn" type="button" data-action="copy-email">Copy Email</button>
+                            <a class="btn primary" href="mailto:kharlleekling@gmail.com">Email Me</a>
+                        </div>
+                    </div>
+
+                    <div class="contactinfo">
+                        <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                        <h3>Mobile</h3>
+                        <p><a href="tel:09357980138">09357980138</a></p>
+                    </div>
+                    <div class="contactinfo">
+                        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                        <h3>Location</h3>
+                        <p>Brgy. Bagong Pook Sta. Maria, Laguna</p>
+                    </div>
+                    <div class="contactinfo">
+                        <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:kharlleekling@gmail.com">kharlleekling@gmail.com</a></p>
+                    </div>
+                    <div class="contactinfo">
+                        <i class="fa-solid fa-globe" aria-hidden="true"></i>
+                        <h3>Name</h3>
+                        <p>Kharlle</p>
+                    </div>
+
+                    <form id="contactForm">
+                        <div class="formHeader">
+                            <h2>Send me a message</h2>
+                            <div class="SocialLinks" aria-label="Social links">
+                                <a href="https://codepen.io/" target="_blank" rel="noreferrer" aria-label="CodePen">
+                                    <i class="fa-brands fa-codepen" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram">
+                                    <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://twitter.com/" target="_blank" rel="noreferrer" aria-label="Twitter">
+                                    <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook">
+                                    <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <input name="name" type="text" placeholder="Name" autocomplete="name" required />
+                        <input name="email" type="email" placeholder="Email" autocomplete="email" required />
+                        <textarea name="message" rows="10" placeholder="Type your message…" spellcheck="false" required></textarea>
+                        <p class="formStatus" role="status" aria-live="polite"></p>
+                        <button class="btn primary" type="submit" data-action="send">Send</button>
+                    </form>
+
+                    <footer>
+                        <p>Copyright © 2026 Kharlle Mae.</p>
+                    </footer>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Resume file to download (put your image into src/assets with this exact name) -->
+    <a id="resumeDownload" href="assets/kharlle-mae-resume.jpg" download="Kharlle-Mae-Resume.jpg" hidden></a>
+
+</body>
+
+</html>
